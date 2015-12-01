@@ -1,0 +1,10 @@
+--- a/configure.ac
++++ b/configure.ac
+@@ -125,6 +125,7 @@
+ 	[mips*], [ARCHTYPE="mips"],
+ 	[tile*], [ARCHTYPE="tile"],
+ 	[hppa*], [ARCHTYPE="hppa"],
++	[sh4], [ARCHTYPE="gcc"],
+ 	[ARCHTYPE="unknown"]
+ )
+ 
